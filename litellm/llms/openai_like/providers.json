@@ -392,5 +392,14 @@
       "/v1/chat/completions",
       "/v1/completions"
     ]
+  },
+  "jetfern": {
+    "base_url": "https://inference.jetfern.ai/v1",
+    "api_key_env": "JETFERN_API_KEY",
+    "api_base_env": "JETFERN_API_BASE",
+    "provider_info": {
+      "supports_function_calling": true,
+      "supports_reasoning": true
+    }
   }
 }
